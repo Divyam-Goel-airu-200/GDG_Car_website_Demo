@@ -14,7 +14,7 @@
     
 }
 
-.container{
+.base{
     position: relative;
     height: 100%;
     display: flex;
@@ -53,13 +53,14 @@ section{
     color: white;
     padding: 5rem 0;
 }
-.ul{
-    font-size:2rem;
-    padding: 0 14rem;
-}
+
 .para{
     font-size:5rem;
     padding: 0 10rem;
+}
+.ul{
+    font-size:2rem;
+    padding: 0 14rem;
 }
 
 .para-sf{
