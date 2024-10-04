@@ -3,8 +3,50 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Poppins', sans-serif ;
+}
+.Navbar{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 15px;
+    padding-left: 20px;
+   
+
+}
+.Navdiv{
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+}
+li
+{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
 }
 
+button {
+background-color: gray;
+color: white;
+margin-left: 10px;
+padding: 10px;
+border-radius: 10px;
+width: 90px;
+}
+button a{
+    color: white;
+    font-weight: bold;
+}
 .Divyam{
     height:100vh;
     overflow-y: auto;
@@ -61,11 +103,16 @@ section{
 .ul{
     font-size:2rem;
     padding: 0 14rem;
+    list-style-type: disc;
 }
-
+.ul li{
+        
+    margin-top: 10px;
+}
 .para-sf{
     font-size: 3rem;
     padding:0 10rem;
+    
 }
 .text{
     font-size: 1.5rem;
@@ -96,3 +143,130 @@ section{
 .bg5{
     background-image: url(Rolls-Royce.jpg);
 }
+.contact{
+    color: #fff;
+    position:relative;
+    min-height: 100vh;
+    padding:50px 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(pexels-photo-975399.jpeg);
+    background-size: cover;
+}
+.contact .container h2
+{
+ font-size: 36px;
+ font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+ color:#fff;
+}
+.contact .container p{
+    
+    font-weight: 300;
+    color:#fff;
+   }
+   .more {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+   }
+   .more .moreinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   }
+   .more .moreinfo .more3{
+    position: relative;
+    padding: 20px 0;
+    display:flex;
+
+   }
+   /* .more .moreinfo .more3 .more5{
+min-width: 60px;
+height: 60px;
+background: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+font-size:22px;
+   } */
+.more .moreinfo .more3 .more4{
+    display:flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color:#fff;
+    flex-direction: column;
+    font-weight: 300;
+}   
+.more .moreinfo .more3 .more4 h3{
+    font-weight: 500;
+    color:#00bcd4
+}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background:#fff;
+
+}
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: bold;
+}
+ .contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+ }
+ .contactForm .inputBox input,
+ .contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none ;
+  resize: none;
+
+ }
+ .contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+
+ }
+ .contactForm .inputBox input:focus ~ span,
+ .contactForm .inputBox input:valid ~ span{
+    color: #e91e63;
+ font-size: 12px;
+ transform: translateY(-20px);
+ }
+ .contactForm .inputBox textarea:focus ~ span,
+ .contactForm .inputBox textarea:valid ~ span{
+ color: #e91e63;
+ font-size: 12px;
+ transform: translateY(-20px);
+}
+.contactForm .inputBox input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
